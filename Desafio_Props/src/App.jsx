@@ -15,19 +15,19 @@ import Footer from './components/Footer.jsx';
 function App() {
   return (
     <>
-      <div className="cabeca">
-        <img src={logo} alt="Logo do Grupo" />
-        <h1>DESAFIO 1 de PROPS - REACT</h1>
-      </div>
-      <div className="meio">
+    <article className="Blocao">
         <Usuarios />
         <Lado/>
+<<<<<<< HEAD
       </div>
 
 
       <Footer imge={instagram} texto="@vieiraquezia08" />
       <Footer imge={gmail} texto="vieiraquezia24@gmail.com"/>
       <Footer texto="Responsável pelo desenvolvimento: Quezia Amaral Vieira"/>
+=======
+        </article>
+>>>>>>> 7a0d5d57b7113c7e750d831937fb10b85db4a4b5
     </>
   );
 }
