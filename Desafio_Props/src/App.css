@@ -57,3 +57,14 @@ body {
   margin: 0;
   width: 100%;
 }
+
+.blocao {
+  display: flex;
+  flex-direction: row;
+}
+
+.divmeio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
