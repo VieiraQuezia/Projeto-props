@@ -16,7 +16,7 @@ function App() {
     <header>
       <Cabecalho/>
     </header>
-    <article className="Blocao">
+    <article className="blocos">
         <Usuarios nome="Guilherme G. Santana" img={guilherme} hobby="Sair com a namorada"/>
         <Usuarios nome="Hayeska L. A. Machado" img={hayeska} hobby="Jogar vôlei"/>
         <Usuarios nome="Leonardo M. Vicente" img={leonardo} hobby="Tocar piano"/>
