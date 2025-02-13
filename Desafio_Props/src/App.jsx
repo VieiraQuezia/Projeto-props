@@ -13,6 +13,7 @@ import Lado from './components/lado'
 function App() {
   return (
     <>
+<<<<<<< HEAD
       <div className="cabeca">
         <img src={logo} alt="Logo do Grupo" />
         <h1>DESAFIO 1 de PROPS - REACT</h1>
@@ -22,8 +23,12 @@ function App() {
         <Usuarios nome="Hayeska L. A. Machado" img={hayeska} hobby="Jogar vôlei"/>
         <Usuarios nome="Leonardo M. Vicente" img={leonardo} hobby="Tocar piano"/>
         <Usuarios nome="Quezia A. Vieira" img={quezia} hobby="Jogar vôlei"/>
+=======
+    <article className="Blocao">
+        <Usuarios />
+>>>>>>> 7a0d5d57b7113c7e750d831937fb10b85db4a4b5
         <Lado/>
-      </div>
+        </article>
     </>
   );
 }

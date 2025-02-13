@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    
   
     padding-top: 30%;
      
@@ -10,6 +12,8 @@
   }
   
   .bloco{
+
+    
     background-color: #ffffff;
   
     font-size: 80%;
