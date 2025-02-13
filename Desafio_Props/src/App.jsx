@@ -6,6 +6,13 @@ import logo from "./assets/logo.png";
 import Usuarios from "./components/Usuarios.jsx";
 import "./App.css";
 
+
+import './App.css'
+import Lado from './components/lado'
+
+import Usuarios from './components/Usuarios'
+
+
 function App() {
   return (
     <>
@@ -16,6 +23,12 @@ function App() {
       <div className="meio">
         <Usuarios />
       </div>
+
+ 
+
+    <Usuarios/>
+
+    <Lado/>
     </>
   );
 }
