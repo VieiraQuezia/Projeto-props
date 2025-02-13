@@ -25,6 +25,8 @@ function App() {
       </article>
       <Lado/>
       </div>
+
+      <Footer imgi={instagram} insta="@vieiraquezia08" imge={gmail} email="vieiraquezia24@gmail.com" texto="Responsável pelo desenvolvimento: Quezia Amaral Vieira" />
     </>
   );
 }
