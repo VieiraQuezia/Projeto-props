@@ -55,4 +55,5 @@ body {
   flex-direction: row;
   justify-content: center;
   margin: 0;
+  width: 100%;
 }
