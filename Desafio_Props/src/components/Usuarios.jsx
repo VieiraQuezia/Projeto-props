@@ -1,52 +1,17 @@
-import './Usuarios.css'
+import "./Usuarios.css";
 
-
-function perfil() {
-
+function perfil(props) {
   return (
     <>
       <article className="blocos">
-
-<nav className="bloco">
-
-<h2> Guilherme Gariel </h2>
-<img className="imagem" src="" />
-<h3> Hobby:  </h3>
-<p> Sair com namorada </p>
-
-</nav>
-
-
-<nav className="bloco">
-
-<h2> Hayeska Loredane </h2>
-<img className="imagem" src="" />
-<h3> Hobby:  </h3>
-<p> Jogar vôlei </p>
-
-</nav>
-
-
-<nav className="bloco">
-
-<h2> Leonardo Mori </h2>
-<img className="imagem" src="" />
-<h3> Hobby:  </h3>
-<p> Toacar piano</p>
-
-</nav>
-<nav className="bloco">
-
-<h2> Quezia </h2>
-<img className="imagem" src="" />
-<h3> Hobby:  </h3>
-<p> Jogar vôlei </p>
-
-</nav>
-
-</article>
+        <nav className="bloco">
+          <h2>{props.nome}</h2>
+          <img className="imagem" src={props.img} />
+          <h3>Hobby:<p>{props.hobby}</p></h3>
+        </nav>
+      </article>
     </>
-  )
+  );
 }
 
-export default perfil
+export default perfil;
