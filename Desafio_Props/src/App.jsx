@@ -25,7 +25,7 @@ function App() {
     <article className="Blocao">
         <Usuarios />
         <Lado/>
-      </div>
+      </article>
     </>
   );
 }
