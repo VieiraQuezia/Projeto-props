@@ -1,18 +1,19 @@
 import './header.css'
+import logo from "../assets/logo.png";
 
 
-function cabecalho(props){
+function Cabecalho(){
     
     return (
         <>
-        <header>
-            
+        <header className='cabeca'>
+
+       <img src={logo} className="logo react" alt="React logo" />     
        <h1> REACT</h1>
-        <img src={props.logo} className="logo react" alt="React logo" />
-       
+        
     </header>
     </>
     )
 }
 
-export default cabecalho
+export default Cabecalho
