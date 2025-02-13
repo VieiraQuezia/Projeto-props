@@ -6,7 +6,7 @@ import logo from "./assets/logo.png";
 import Usuarios from "./components/Usuarios.jsx";
 import "./App.css";
 
-
+import './components/header.jsx'
 import './App.css'
 import Lado from './components/lado'
 
