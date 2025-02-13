@@ -13,14 +13,10 @@ import Lado from './components/lado'
 function App() {
   return (
     <>
-      <div className="cabeca">
-        <img src={logo} alt="Logo do Grupo" />
-        <h1>DESAFIO 1 de PROPS - REACT</h1>
-      </div>
-      <div className="meio">
+    <article className="Blocao">
         <Usuarios />
         <Lado/>
-      </div>
+        </article>
     </>
   );
 }
