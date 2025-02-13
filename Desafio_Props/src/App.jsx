@@ -2,15 +2,12 @@
 // import hayeska from "./assets/hayeska.png"
 // import leonardo from "./assets/leonardo.png"
 // import quezia from "./assets/quezia.png"
+// import instagram from "./assests/instagram.png"
 import logo from "./assets/logo.png";
 import Usuarios from "./components/Usuarios.jsx";
 import "./App.css";
-
-import './components/header.jsx'
-import './App.css'
 import Lado from './components/lado'
 
-import Usuarios from './components/Usuarios'
 
 
 function App() {
@@ -22,13 +19,8 @@ function App() {
       </div>
       <div className="meio">
         <Usuarios />
+        <Lado/>
       </div>
-
- 
-
-    <Usuarios/>
-
-    <Lado/>
     </>
   );
 }
