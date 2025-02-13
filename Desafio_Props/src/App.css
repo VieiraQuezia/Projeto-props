@@ -41,8 +41,7 @@
   color: #888;
 } */
 
-
-body{
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,11 +50,9 @@ body{
   margin: 0;
 }
 
-.meio{
+.meio {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 0;
 }
-
-

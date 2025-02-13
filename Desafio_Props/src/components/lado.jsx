@@ -1,5 +1,6 @@
 import "./lado.css"
 
+
 function Lado(props) {
   return (
     <>
